@@ -29,6 +29,7 @@ function CardGrid({features = []}){
               <h4 className="font-semibold">{items.title}</h4>
             </div>
             <p className="text-sm text-gray-500">{items.description}</p>
+            <img src={items.image} className="h-80 w-80" />
           </div>
         ))}
     </div>
